@@ -169,7 +169,7 @@ The SARSA algorithm successfully learned a policy for navigating the FrozenLake 
 ## Inference
 ```text
 
-The experiment demonstrates that SARSA can learn an effective policy through on-policy reinforcement learning. Since SARSA updates the Q-value using the action actually selected by the epsilon-greedy policy, its learned policy accounts for the exploration behavior of the agent. As training progresses and epsilon decreases, the agent performs more exploitation and generally achieves better rewards. The experiment also shows that learning in the slippery FrozenLake environment is challenging because the agent's movements are stochastic, but repeated training enables it to learn a useful policy.
+The experiment demonstrates that SARSA can learn an effective policy through on-policy reinforcement learning. Since SARSA updates the Q-value using the action actually selected by the epsilon-greedy policy, its learned policy accounts for the exploration behavior of the agent. As training progresses and epsilon decreases, the agent performs more exploitation and generally achieves better rewards. The experiment shows that learning in slippery FrozenLake environment is challenging because the agent's movements are stochastic, but repeated training enables it to learn a useful policy.
 
 ```
 ---
